@@ -1,8 +1,28 @@
-# React + Vite
+## Built with
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- React + Vite
+- Framer-motion
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Running locally
+
+```sh
+git clone https://github.com/Platzu16/notion-kanban.git
+cd notion-kanban && npm install
+npm run dev
+
+The above commands will start the application on http://localhost:3000
+```
+<!-- 
+## Github page link for the app
+
+Open this link [react-test](https://platzu16.github.io/react-assignment/) in new tab to test it.
+ -->
+
+
+Note: Please use the latest node and react versions.
+
+All done!!!
+
+Thank you!!!
