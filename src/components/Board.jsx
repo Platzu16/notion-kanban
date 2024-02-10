@@ -9,14 +9,15 @@ export default function Board() {
   const [hasChecked, sethasChecked] = useState(false);
 
   useEffect(() => {
-    hasChecked && localStorage.setItem("cards", JSON.stringify(cards));
+    hasChecked && localStorage.setItem("cards", JSON.stringify(cards)); 
+    console.log('cards',cards);
   }, [cards]);
 
   useEffect(() => {
     const cardData = localStorage.getItem("cards");
     setCards(cardData ? JSON.parse(cardData) : []);
     sethasChecked(true);
-  }, [cards]);
+  }, []);
 
   return (
     <div className="flex h-full w-full gap-3 overflow-scroll p-12">
