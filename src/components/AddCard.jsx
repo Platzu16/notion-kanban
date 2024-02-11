@@ -10,12 +10,12 @@ export default function AddCard({ column, setCards }) {
     e.preventDefault();
 
     if (!text.trim().length) return;
-
+    
     const newCard = {
       column,
       title: text.trim(),
       id: Math.random().toString(),
-    };
+    };  
 
     setCards((pv) => [...pv, newCard]);
 
